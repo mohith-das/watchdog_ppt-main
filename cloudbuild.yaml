@@ -1,0 +1,4 @@
+steps:
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["functions", "deploy", "send_ppt", "--runtime=python37", "--timeout=540", "--memory=1024MB", "--trigger-topic=anomaly_alerts_trigger"]
+timeout: "1600s"

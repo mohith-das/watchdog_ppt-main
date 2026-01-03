@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Pycharm
+.idea/
+
+
+# Environments
+venv/
+
+
+*.docx
+analyticsreporting.dat
+client_secrets.json
+private_key.json
+firestore_key.json.env
+.env.local
+*.pem
+*.key
+credentials.json
+secrets.*
+*.log
+node_modules/
+dist/
+build/
+target/
+.venv/
+.DS_Store
